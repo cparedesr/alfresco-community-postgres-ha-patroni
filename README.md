@@ -145,11 +145,13 @@ HAProxy verifica el estado de los nodos a través de sus APIs REST (puerto 8008)
 4. Datos locales:
 Cada nodo mantiene su propio volumen de almacenamiento, asegurando que cada instancia tenga su propia copia de la base de datos, mientras que la replicación se encarga de mantener la coherencia.
 
-## ALfresco Community
-La colleción de Alfresco detallada en esta colección es bastante simple y a modo de ejemplo, ya que se prescinde de los servicios de índices y también el de transformación.
+## Alfresco Community
+La coleción de Alfresco detallada en esta colección es bastante simple y a modo de ejemplo, ya que se prescinde de los servicios de índices y también el de transformación.
+
 Esta arquitectura, ha pasado un protocolo de pruebas de carga, miestras que varios cores de Alfresco están conectado conectado a los diferentes puntos de BBDD que tenemos:
-    - HaProxy.
-    - Pg-master.
-    - Pg-slave.
+- HaProxy.
+- Pg-master.
+- Pg-slave.
+
 Esta pruebas es para garantizar y ver de forma "visual" la replicación de los datos. Esto no es un clúster de Alfresco Community, solo está enfocado al entorno de BBDD.
 
